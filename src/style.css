@@ -1,6 +1,10 @@
+*{
+    font-family: neodgm-code;
+}
+
 body{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
     overflow: hidden;
     margin: 0;
@@ -9,14 +13,37 @@ body{
 
 #mainBox{
     background-color: #666666;
-    width: calc((100vh/22)*9);
+    width: 100vw;
     height: 100vh;
     margin: 0 auto;
 }
 
+#title{
+    width: 100vw;
+    height: 10vh;
+    margin: 0 auto;
+    font-size: 32px;
+    padding: auto;
+}
+
 #menuBar{
     width: 100%;
-    height: 48px;
+    height: 10vh;
     background-color: #000;
+    color: #fff;
+}
+
+#displayBox{
+    width: 100%;
+    height: 30vh;
+    background-color: #aaa;
+    color: #fff;
+
+}
+
+#keyBox{
+    width: 100%;
+    height: 50vh;
+    background-color: #888;
     color: #fff;
 }
